@@ -35,7 +35,7 @@ rk = np.convolve(sPSF, qW)
  
 # plt.plot(np.real(rk))
 # plt.plot(np.imag(rk))
-
+    
 rk_shift = np.roll(rk,1)
 len_rk = len(rk_shift)
 xk = np.abs(rk_shift)**2

@@ -8,7 +8,8 @@ import scipy.signal as signal
 from scipy.interpolate import interp1d
 #%%
 
-num_of_symbols = 50  # Number of symbols
+num_of_symbols = 50  # Number of symbols2
+
 numb_of_preamble = 100
 # Create modulation. QAM16 makes 4 bits/symbol
 zero_padding = np.zeros(20, dtype=np.complex64)
