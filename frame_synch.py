@@ -38,6 +38,7 @@ sQ = sQ + noise
 
 x_corr = np.correlate(sQ,np.conj(barker),'full')
 plt.plot(np.abs(x_corr))
+plt.legend()
 # %%
 
 # %%
